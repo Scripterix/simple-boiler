@@ -10,3 +10,7 @@ box-sizing: border-box,
 # Check it out with 
 
 git clone https://github.com/Scripterix/simple-boiler.git
+
+# JS connected with HTML 
+
+confirm with alert('JS Works');
