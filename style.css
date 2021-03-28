@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+:root {
+  --violet-200: rgb(195, 71, 229);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-violet-200 {
+  color: var(--violet-200);
+}
+
+
