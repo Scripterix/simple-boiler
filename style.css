@@ -14,6 +14,15 @@ body {
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
 }
+
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+a:hover {
+  color: #0a58ca;
+}
+
 .text-center {
   text-align: center;
 }
@@ -21,5 +30,42 @@ body {
 .text-violet-200 {
   color: var(--violet-200);
 }
+
+.btn {
+  background: rgb(100, 149, 237);
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid #0d6efd;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(100, 149, 237, 0.5);
+  color: rgb(24, 23, 23);
+  border: 1px solid rgba(18, 18, 19, 0.5);
+}
+
+.btn-sm {
+  text-align: center;
+  min-width: 120px;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 5px;
+  border: #26426b solid 1px;
+  border-radius: 5px;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+
+
 
 
